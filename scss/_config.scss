@@ -5,7 +5,7 @@ $home-image: url(../img/FamPic.jpg);
 $background-opacity: 0.9;
 
 @mixin easeInOut {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 @mixin background {
