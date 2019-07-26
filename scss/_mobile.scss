@@ -1,17 +1,9 @@
 // Widescreens
 @include mediaXl {
-  .projects {
-    grid-gap: 7rem;
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 // Desktops & Laptops
 @include mediaLg {
-  .projects {
-    grid-gap: 5rem;
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 // Tablets & Sm Laptops
@@ -67,8 +59,9 @@
   }
 
   .projects {
-    grid-gap: 3rem;
-    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -86,6 +79,8 @@
   }
 
   .projects {
+    display: grid;
+    grid-gap: 1rem;
     grid-template-columns: 1fr;
   }
 }
