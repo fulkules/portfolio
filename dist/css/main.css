@@ -200,6 +200,25 @@ main {
       cursor: pointer;
       transition: all 0.3s ease-in-out; }
 
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 2rem;
+    border: 3px #fff solid;
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+    transition: all 0.3s ease-in-out; }
+    .boxes div:hover {
+      padding: 1.5rem 2.5rem;
+      background: #bada55;
+      color: #111; }
+      .boxes div:hover span {
+        color: #111; }
+
 .btn, .btn-dark {
   display: block;
   padding: 0.5rem 1rem;
