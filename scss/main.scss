@@ -267,6 +267,10 @@ main {
   height: 60px;
 }
 
+@import "mobile";
+
+// 404 ERROR PAGE
+
 @import url(https://fonts.googleapis.com/css?family=Snowburst+One);
 $color_emerald_approx: #152c3e;
 $white_10: rgba(255, 255, 255, 0.1);
@@ -305,7 +309,6 @@ h1 {
   font-size: 24px;
   text-align: center;
 
-  font-family: "Snowburst One", cursive;
   color: #3e0;
 }
 .laptop {
@@ -508,4 +511,4 @@ h1 {
   }
 }
 
-@import "mobile";
+
