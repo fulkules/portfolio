@@ -242,6 +242,9 @@ main {
   border-radius: 5px;
   background: rebeccapurple;
   backface-visibility: hidden; }
+  #skills .front:hover,
+  #skills .back:hover {
+    background-color: #4d2673; }
 
 #skills .front {
   transform: rotateY(180deg); }
@@ -342,3 +345,34 @@ main {
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: 1fr; } }
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%; }
+
+#message {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  padding: 15px;
+  max-width: 50%;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif; }
+  #message h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 0px; }
+  #message a {
+    margin: auto;
+    position: absolute;
+    transition: all 0.3s ease-in-out; }
+    #message a:hover {
+      cursor: pointer;
+      color: #bada55; }
